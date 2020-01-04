@@ -1,3 +1,6 @@
+"""
+    factory pattern
+"""
 import pygame
 
 
