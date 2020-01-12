@@ -11,7 +11,7 @@ class ConcreteObserver(object):
 
 
 class Observable(object):
-    def __int__(self):
+    def __init__(self):
         self.callbacks = set()
 
     def register(self, callback):
