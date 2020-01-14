@@ -11,6 +11,9 @@ class Visitable(object):
 
 class CompositeVisitable(Visitable):
     def __int__(self, iterable):
+        """
+        :param iterable: [visitable object]
+        """
         self.iterable = iterable
 
     def accept(self, visitor):
